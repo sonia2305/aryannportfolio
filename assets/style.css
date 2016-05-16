@@ -57,7 +57,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .carousel-indicators{bottom: 0;}
 
 /*works*/
-#works{padding-top:6em;}
+#works{padding-top:1em;background:#000}
 #works figcaption a{border:1px solid #fff;margin-top: 1em;display: inline-block;color: #fff;padding: 0 2em;}
 #works figcaption a:hover{text-decoration: none;padding: 0 3em;}
 /*works*/
@@ -70,7 +70,7 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 .team a i.fa:hover{color: #E89F10;}
 
 
-.highlight-info{ background:url(../images/lab.jpg) center fixed; background-size: cover; color:#fff;}
+.highlight-info{ background:url(../images/work/gallery/singing.jpg) center fixed; background-size: cover; color:#fff;}
 .highlight-info .overlay{background: rgba(232,159,16,0.7);}
 .highlight-info h4{color: #fff;margin:0.5em 0 0 0;}
 /*about us*/
@@ -149,4 +149,21 @@ p{font-size:1em;line-height: 1.7em; margin-bottom: 1.7em;}
 	.grid.team div{margin: 0;padding: 0;}
 	figure.effect-chico figcaption {padding: 1.5em;}
 	.footer{margin-top: 2em;padding-bottom: 2em;}
+}
+
+.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    height: 0;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
